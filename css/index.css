@@ -99,6 +99,10 @@ p {
     margin: 4% auto;
 }
 
+.container .banner img:hover {
+    opacity: .7;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
