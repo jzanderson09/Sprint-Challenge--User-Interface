@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    --> Semantic HTML (Hypertext Markup Language) is markup with meaning, as opposed to presentational markup.  Semantic HTML is used to improve SEO, marketing, screen reader functionality whereas presentational markup is for design and doesn't necessarily have meaning.  Examples of semantic HTML are things like <main>, <strong>, <h1>, <footer>, etc. and presentational examples would be something like <div>.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    --> display: block; would show as a block element, giving it a page break/line break and the block element would be on its own line.  Height and width work on block elements.  Display:inline; would show an inline element (like <nav><a> tags or <span>) which would sit inline with one another if there were multiples.  with inline, there are no auto page breaks, inline can be on one line together and height doesn't affect inline elements.
 
 3. What are the 4 areas of the box model?
 
+    --> 1) Content, 2) Padding, 3) Border, 4) Margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    --> align-items: center; would affect the flex-items within the flex-container along the cross-axis.  So if we had display: flex;, flex-direction: row;, the main-axis would be up and down.  This would make those items centered between the very top and very bottom.
+
 5. Explain why git is valuable to a team of developers.
+
+    --> Git and the knowlege of its functionality is very valubale to a team of developers because it allows a method of source control for the team.  This allows everybody to input their data, their creativity and design without altering the master source.  They then can decide on what changes to be made and will collectively make the final commits to the master as a team.  Knowing git using either a terminal or something like git bash allows the team to either utilize their terminal/git bash to save, push and pull data.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

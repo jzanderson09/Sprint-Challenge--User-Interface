@@ -66,10 +66,55 @@ p {
     line-height: 1.4;
 }
 
+
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+.container .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 1%;
+}
+
+.container .links a {
+    color: black;
+    text-decoration: none;
+}
+
+.container .links a:hover {
+    color: silver;
+    text-decoration: underline;
+}
+
+.container .links a:last-child {
+    margin-right: 8%;
+}
+
+.container .banner {
+    width: 800px;
+    margin: 4% auto;
+}
+
+.container .banner img:hover {
+    animation-name: opacityChange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+    @keyframes opacityChange{
+        from {
+            opacity: 1;
+        }
+        
+        to {
+            opacity: .7;
+        }
+    }
 
 .top-content {
     display: flex;
@@ -112,6 +157,90 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box1:hover {
+    opacity: .7;
+}
+
+.middle-content .boxes .box1:active {
+    transform: Y(4px);
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box2:hover {
+    opacity: .7;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box3:hover {
+    opacity: .7;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box4:hover {
+    opacity: .7;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box5:hover {
+    opacity: .7;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box6:hover {
+    opacity: .7;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box7:hover {
+    opacity: .7;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box8:hover {
+    opacity: .7;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box9:hover {
+    opacity: .7;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+
+.middle-content .boxes .box10:hover {
+    opacity: .7;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +272,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    color: silver;
+    text-decoration: underline;
 }
